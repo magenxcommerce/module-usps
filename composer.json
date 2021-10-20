@@ -1,0 +1,34 @@
+{
+    "name": "magenxcommerce/module-usps",
+    "description": "N/A",
+    "require": {
+        "php": "~7.0.13|~7.1.0|~7.2.0",
+        "magenxcommerce/module-store": "100.2.*",
+        "magenxcommerce/module-shipping": "100.2.*",
+        "magenxcommerce/module-directory": "100.2.*",
+        "magenxcommerce/module-catalog": "102.0.*",
+        "magenxcommerce/module-sales": "101.0.*",
+        "magenxcommerce/module-catalog-inventory": "100.2.*",
+        "magenxcommerce/module-quote": "101.0.*",
+        "magenxcommerce/module-config": "101.0.*",
+        "magenxcommerce/framework": "101.0.*",
+        "lib-libxml": "*"
+    },
+    "type": "magento2-module",
+    "version": "100.2.7",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magento\\Usps\\": ""
+        }
+    },
+    "replace": {
+        "magento/module-usps": "*"
+    }
+}
